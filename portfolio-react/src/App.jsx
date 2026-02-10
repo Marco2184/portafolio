@@ -11,7 +11,6 @@ import {
   Moon,
   Download,
   MapPin,
-  Phone,
   GraduationCap,
   Briefcase,
   BadgeCheck,
@@ -43,7 +42,6 @@ const PROFILE = {
   name: "Marco",
   role: "Desarrollador Java | MySQL",
   location: "Arequipa, Perú",
-  phone: "+51 965067161",
   email: "marco_82004@hotmail.com",
   about:
     "Soy un desarrollador orientado a resultados. Construyo aplicaciones web, enfocándome en buenas prácticas, rendimiento y una experiencia de usuario limpia.",
@@ -415,10 +413,6 @@ function About() {
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
               <span className="text-muted-foreground">{PROFILE.location}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
-              <span className="text-muted-foreground">{PROFILE.phone}</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
